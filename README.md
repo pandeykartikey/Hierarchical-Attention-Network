@@ -6,7 +6,7 @@ We know that documents have a hierarchical structure, words combine to form sent
 This is a (close) implementation of the model in PyTorch. 
 
 ### Keypoints
-- The network uses Bidirectional GRU to capture the contextual information about a word.
+- The network uses a bidirectional GRU to capture the contextual information about a word.
 - There are two layers of attention, one Word level, and another Sentence level.
 - It uses word2vec for word embeddings.
 - Negative Log Likelihood is used as the loss function.
